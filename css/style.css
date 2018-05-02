@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    width: 100%;
+}
+
+/*header start*/
+
+.logo {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 15px;
+    color: black !important;
+}
+
+.customnav {}
+
+.customnav li {
+    padding: 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.customnav li a {
+
+    margin: 0 10px;
+}
+
+/*header end*/
+
+/*body image start*/
+
+.bdimg img {
+    width: 100%;
+
+}
+
+/*body image end*/
+
+/*weekend gateway start*/
+
+.caption h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #bcb8b8;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+
+/*
+.everything{
+  padding: 0px 55px;
+    overflow: hidden;
+}
+*/
+
+.text h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #626262;
+}
+
+.text p {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.empty {
+    float: left;
+}
+
+.lifetext h1 {
+    color: #626262;
+}
+
+.lifestyle h1 {
+    padding: 20px 1px;
+}
+
+.photo img {
+    transition: 1s;
+}
+
+.photo img:hover {
+    transform: scale(1.1);
+}
+
+/*weekend gateway end*/
+
+/*sin up start*/
+
+.sin-up {
+    height: 285px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+}
+
+.sin-up h1 {
+    padding-top: 100px;
+    color: #626262;
+}
+
+input {
+
+    width: 35%;
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+    padding-top: 35px;
+}
+
+/*
+.drop{
+    position: absolute;
+    right:35%;
+    top: 65%;
+}
+*/
+
+.buttn {
+    height: 50px;
+    width: 150px;
+    margin-left: 42%;
+    background-color: white;
+    border: 1px solid black;
+    color: #626262;
+}
+
+/*sin up end*/
+
+/*footer start*/
+
+footer {
+    margin-top: 25px;
+    background-color: #f0f0f0;
+}
+
+.terms p {
+    padding: 38px 122px;
+}
+
+.follow img {
+    width: 13px;
+}
+
+.follow ul {
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 35px;
+}
+
+.follow ul li {
+    padding: 1px 30px;
+    float: left;
+}
+
+/*footer end*/
